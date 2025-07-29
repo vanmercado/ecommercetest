@@ -1,5 +1,4 @@
 import React from "react";
-import mainImg from "../../public/assets/main.png";
 
 const Home = () => {
   return (
@@ -8,7 +7,7 @@ const Home = () => {
         <div className="card bg-dark text-white border-0 mx-3">
           <img
             className="card-img img-fluid"
-            src={mainImg}
+            src={`${process.env.PUBLIC_URL}/assets/main.png`}
             alt="Card"
             height={500}
           />
